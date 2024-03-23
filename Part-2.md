@@ -1,4 +1,4 @@
-In this part we are going to create VPC.
+✅ In this part we are going to create VPC.
 1. Open console and click on VPC.
 
 2. Select create VPC
@@ -11,7 +11,7 @@ And click create button
 
 3. Go to Your VPC, in list you will find your VPC with available status.
 
-For internet access to vpc components let's create IGW internet gateway.
+✅ For internet access to vpc components let's create IGW internet gateway.
 
 1. Click IGW in LNM
 2. Click on create IGW button.
@@ -21,14 +21,14 @@ For internet access to vpc components let's create IGW internet gateway.
 6. Click on Attach VPC and select your VPC in drop-down list.Finally click on Attach VPC button
 7. Again navigate to IGW in LNM you will find your IGW in attached status.
 
-In next AWS resource creation,we will create public subnet and private subnet.
+✅ In next AWS resource creation,we will create public subnet and private subnet.
 
 1. Navigate to Subnet in LNM.
 2. Click on Create Subnet button.
 3. Fill up all necessary information such as type as public or private,select VPC at last ip range for CIDR block and TAG.
 4. Create public and private subnet as same way.
 
-In next step, we are going to create route table for routing packets from IGW to resources in subnet.
+✅ In next step, we are going to create route table for routing packets from IGW to resources in subnet.
 
 For this creation, we have to route Route table to IGW and subnet.
 
@@ -42,6 +42,16 @@ Note that we can't route packets from IGW to public and private subnet with rout
 6. Again navigate to RT you will find both RT in active state.
 7. Select Public Route table and navigate to routes here add route from 0.0.0.0/0 to IGW as target and finally add route to RT
 8. Now we have routed IP packets from IGW to RT to Subnet.
+
+
+✅ For accessing to resources in subnet we have to predefined engress and ingress rule in security group. So during resource we can select security group directly.
+
+1. Navigate to security groups in VPC LNM.
+
+2. Create security group with filling up details as name and inbound/outbound traffic for required ports.
+
+3. Click on create security group.
+
 
 
 Finally we are ready with base infrastructure. In next part we will launch resources in subnets such as EC2 with template and user data for APP-SERVER creation.
