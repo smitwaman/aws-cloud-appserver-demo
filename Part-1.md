@@ -12,7 +12,7 @@ Create IAM user and login to console.
 
 6. Click user that you have created.
 
-7. Select policies either you can select predefined policies or create new policies from policy menu in LHNP. Attach those policies to user for granting access to specific aws resources for specific user.
+7. Select policies either you can select predefined policies or create new policies from policy menu in LNP. Attach those policies to user for granting access to specific aws resources for specific user.
 
 8. Select security management and enable console access.
 
