@@ -30,7 +30,7 @@ Let's create and save template for EC2 first.
 ✅ In networking section
 
 Select your VPC with priority to public subnet to launch.
-Create security group with ingress and egress rule for HTTP and HTTPs traffic and select.
+Select or create security group with ingress and egress rule for HTTP and HTTPs traffic and select.
 
 ✅ Checkout ✔️ public IP allocation box
 
