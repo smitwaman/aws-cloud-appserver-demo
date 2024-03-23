@@ -6,11 +6,11 @@ You have to create and download Private 🗝️ key file either during launch in
 2. Navigate to downloaded key file.
 3. here change permission to give minimum acess to user
 
-''' chmod 400 key.pem '''
+ ▪️ chmod 400 key.pem 
 
 4. check permissions with 
 
-''' ls -lrth ''' 
+ ▪️ ls -lrth
 
 5. Navigate to EC2 instance and copy public IP
 
@@ -18,7 +18,8 @@ You have to create and download Private 🗝️ key file either during launch in
 
 7.Now SSH to EC2 with following command
 
-''' ssh -i key.pem user@public IP'''
+ ▪️ ssh -i key.pem user@public IP
+Here you change user as your username and paste public IP that you had copied simply hit 🎯 enter.
 
 
 
