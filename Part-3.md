@@ -12,6 +12,7 @@ Let's create and save template for EC2 first.
 
 3.For creation of launch template navigate to create template in LNM window.
 
+
 4. Fill up details as 
 
 ✅ Name of template
@@ -38,6 +39,7 @@ Select EBS volume capacity as required with type of storage drive.
 ✅ Click advanced settings here you will find many options for multi functionality you can read and select.
 
 Let's go to user data window here you can write ✍️ your bash script or upload template using choose file button for application installation.
+
 
 5. Now finally click on create launch template button and navigate to Launch template here you can see your launch template.
 
