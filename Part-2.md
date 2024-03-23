@@ -44,6 +44,9 @@ Note that we can't route packets from IGW to public and private subnet with rout
 8. Now we have routed IP packets from IGW to RT to Subnet.
 
 
+Finally we are ready with base infrastructure. In next part we will launch resources in subnets such as EC2 with template and user data for APP-SERVER creation.
+
+
 
 
 
