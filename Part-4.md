@@ -16,7 +16,7 @@ You have to create and download Private 🗝️ key file either during launch in
 
 6. Allow port inbound traffic from SSH 22 port to EC2 from security groups.
 
-7.Now SSH to EC2 with following command
+7. Now SSH to EC2 with following command
 
  ▪️ ssh -i key.pem user@public IP
 
