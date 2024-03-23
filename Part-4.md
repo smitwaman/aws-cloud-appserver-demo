@@ -20,7 +20,7 @@ You have to create and download Private 🗝️ key file either during launch in
 
  ▪️ ssh -i key.pem user@public IP
 
-Here you change user as your username and paste public IP that you had copied simply hit 🎯 enter.
+Here replace user as your username and paste public IP that you had copied simply hit 🎯 enter.
 
 
 
