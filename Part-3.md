@@ -13,12 +13,18 @@ Let's create and save template for EC2 first.
 3.For creation of launch template navigate to create template in LNM window.
 
 4. Fill up details as 
+
 ✅ Name of template
+
 ✅ here we can also check ASG for EC2 instances with providing min max details.
 
+
 ✅ in application os image select AMI for your instance
+
 ✅ select instance type
+
 ✅ Create key 🗝️ for your instance and select that key.
+
 ✅ In networking section
 
 Select your VPC with priority to public subnet to launch.
@@ -28,6 +34,7 @@ Create security group with ingress and egress rule for HTTP and HTTPs traffic an
 
 ✅ In storage section,
 Select EBS volume capacity as required with type of storage drive.
+
 ✅ Click advanced settings here you will find many options for multi functionality you can read and select.
 
 Let's go to user data window here you can write ✍️ your bash script or upload template using choose file button for application installation.
