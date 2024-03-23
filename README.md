@@ -8,9 +8,10 @@
 5. Create target group for EC2 instances.
 6. Define ASG min max rule for EC2 target group.
 7. Create ALB service with required security group for LB and target group.
-8. Create hosted zone and add dns nameserver entries from aws using Route53.
-9. Register hosted zone name with target LB IP address.
-10. Issue certificate from certificate manager for registered hosted zone address and route http traffic to https.
+8. Add WAF for AWS resource LoadBalancer.
+9. Create hosted zone and add dns nameserver entries from aws using Route53.
+10. Register hosted zone name with target LB IP address.
+11. Issue certificate from certificate manager for registered hosted zone address and route http traffic to https.
 
 Finally, we have built our base cloud infra for hosting website using DNS address.
 
