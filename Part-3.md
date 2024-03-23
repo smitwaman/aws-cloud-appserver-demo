@@ -2,6 +2,7 @@ Here we will launch EC2 instance in public subnet with template for practice pur
 
 In these steps we will also create security group
 
+
 Let's create and save template for EC2 first.
 
 1. Open console and select EC2.
@@ -38,8 +39,10 @@ Select EBS volume capacity as required with type of storage drive.
 
 ✅ Click advanced settings here you will find many options for multi functionality you can read and select.
 
-Let's go to user data window here you can write ✍️ your bash script or upload template using choose file button for application installation.
+✅ Let's go to user data window here you can write ✍️ your bash script or upload template using choose file button for application installation.
 
 
 5. Now finally click on create launch template button and navigate to Launch template here you can see your launch template.
+
+
 
