@@ -20,7 +20,9 @@ You have to create and download Private 🗝️ key file either during launch in
 
  ▪️ ssh -i key.pem user@public IP
 
-Here replace user as your username and paste public IP that you had copied simply hit 🎯 enter.
+Here replace user as your username and paste public IP that you had copied. Now, simply hit 🎯 enter.
+
+Read instructions and type yes for permanently adding your EC2 in trusted user list.
 
 
 
