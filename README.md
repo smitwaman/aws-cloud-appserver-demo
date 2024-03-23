@@ -15,5 +15,5 @@
 Finally, we have build our base cloud infra for hosting website using DNS address.
 
 Instead of EC2 we can use Fargate ECS EKS service for Appserver or appdeployment.
-
+Lets build Terraform script for automated infra building. So we can reuse it in another projects too.
 
