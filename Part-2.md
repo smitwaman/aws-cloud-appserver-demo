@@ -25,7 +25,26 @@ In next AWS resource creation,we will create public subnet and private subnet.
 
 1. Navigate to Subnet in LNM.
 2. Click on Create Subnet button.
-3. Fill up all necessary information such as name, ip range for CIDR block.
+3. Fill up all necessary information such as type as public or private,select VPC at last ip range for CIDR block and TAG.
+4. Create public and private subnet as same way.
+
+In next step, we are going to create route table for routing packets from IGW to resources in subnet.
+
+For this creation, we have to route Route table to IGW and subnet.
+
+Note that we can't route packets from IGW to public and private subnet with route table itself.So,we need to create and association with public route table and private route table with public and private subnet respectively.
+
+1. In LNM click on Route table
+2. Create public and private route table separate with same procedure by selecting VPC.
+3. But still RT in inactive stateNow, select Route table in LNM and here you will find your Public and private RT.
+4. Next task is to associate subnet to route table with selecting subnet association menu tab
+5. ✔️ front of public subnet for public RT and private subnet for private RT.
+6. Again navigate to RT you will find both RT in active state.
+7. Select Public Route table and navigate to routes here add route from 0.0.0.0/0 to IGW as target and finally add route to RT
+8. Now we have routed IP packets from IGW to RT to Subnet.
+
+
+
 
 
 
