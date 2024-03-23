@@ -19,6 +19,7 @@ You have to create and download Private 🗝️ key file either during launch in
 7.Now SSH to EC2 with following command
 
  ▪️ ssh -i key.pem user@public IP
+
 Here you change user as your username and paste public IP that you had copied simply hit 🎯 enter.
 
 
