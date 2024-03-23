@@ -10,7 +10,7 @@ Let's create and save template for EC2 first.
 
 
 
-3.For creation of launch template navigate to create template in LNM window.
+3. For creation of launch template navigate to create template in LNM window.
 
 
 4. Fill up details as 
