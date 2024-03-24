@@ -2,7 +2,11 @@ In this section we are going to add web application firewall to load balancer
 
 
 1. Navigate to IP sets.
+
+
 2. fill details name, region, IP set range which you are going to take action.
+
+
 3. Create IP set by clicking create IP set.
 
 
