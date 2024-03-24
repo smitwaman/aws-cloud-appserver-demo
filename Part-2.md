@@ -46,12 +46,22 @@ And click create button
 ![](https://github.com/smitwaman/project-1/blob/main/images/VPC/12.png)
 7. Again navigate to IGW in LNM you will find your IGW in attached status.
 ![](https://github.com/smitwaman/project-1/blob/main/images/VPC/13.png)
+
+
 ✅ In next AWS resource creation,we will create public subnet and private subnet.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/14.png)
 
 1. Navigate to Subnet in LNM.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/15.png)
+
 2. Click on Create Subnet button.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/16.png)
+
 3. Fill up all necessary information such as type as public or private,select VPC at last ip range for CIDR block and TAG.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/17.png)
+
 4. Create public and private subnet as same way.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/18.png)
 
 ✅ In next step, we are going to create route table for routing packets from IGW to resources in subnet.
 
