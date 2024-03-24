@@ -12,14 +12,36 @@ Also we will create template for ASG. And in last we will configure target group
 
 👉 🎯 Target group with Load-Balancer 
 
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/4.png)
+
 1. Open console and click EC2.
+
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/3.png)
+
+
 2. Navigate to LoadBalancer and click target group.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/5.png)
+
+
 3. Click Create Target Group button.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/6.png)
+
+
 4. Next window select EC2 instances as we are creating TG for EC2 instances.
+
+
 5. Name to Target Group
+
+
 6. Select Protocol : Port, IP version,our VPC, Protocol version,health check.
+
+
 7. click Next 
+
+
 8. Select EC2 instances from available instances and create target group.
+
+
 9. But still there is none associated LB.
 
 
