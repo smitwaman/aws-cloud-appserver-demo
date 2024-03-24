@@ -49,7 +49,7 @@ Also we will create template for ASG. And in last we will configure target group
 ![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/9.png)
 
 
-8. Select EC2 instances from available instances and create target group.
+8. Select EC2 instances from available instances and create target group. But here we are launching EC2 with Template So we are keeping it blank and only create target group.  
 
 ![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/10.png)
 
