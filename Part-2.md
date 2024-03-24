@@ -84,11 +84,12 @@ Note that we can't route packets from IGW to public and private subnet with rout
 5. ✔️ front of public subnet for public RT and private subnet for private RT.
 ![](https://github.com/smitwaman/project-1/blob/main/images/VPC/25.png)
 
-6. Again navigate to RT you will find both RT in active state.
-![](https://github.com/smitwaman/project-1/blob/main/images/VPC/23.png)
 
-7. Select Public Route table and navigate to routes here add route from 0.0.0.0/0 to IGW as target and finally add route to RT
+6. Select Public Route table and navigate to routes here add route from 0.0.0.0/0 to IGW as target and finally add route to RT
 ![](https://github.com/smitwaman/project-1/blob/main/images/VPC/22.png)
+
+7. Again navigate to RT you will find both RT in active state.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/23.png)
 
 8. Now we have routed IP packets from IGW to RT to Subnet.
 
