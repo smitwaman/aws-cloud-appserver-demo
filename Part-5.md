@@ -99,13 +99,41 @@ It will take time to come into active state.
 ![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/16.png)
 
 
+
+
 👉 Auto scaling group
+
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/18.png)
+
+
 1. Go to Auto Scaling in LNM and click auto scaling group
+
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/20.png)
+
+
 2. Give name and select launch template or you can create also.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/21.png)
+
+
 3. Click next go to network select VPC and Availablity zone.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/23.png)
+
+
 4. Check on existing LB and choose from LB TG.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/25.png)
+
+
 5. Check health check EC2 instances and grace period.Click next.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/26.png)
+
 6. Select group size as desired min max
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/27.png)
+
 7. Define scaling properties.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/28.png)
+
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/29a.png)
+
 Finally click on create Auto Scaling Group.
 
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/30.png)
