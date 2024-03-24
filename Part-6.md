@@ -3,12 +3,16 @@ In this section we are going to add web application firewall to load balancer
 
 1. Navigate to IP sets.
 
+![](https://github.com/smitwaman/project-1/blob/main/images/IPSeT/Screenshot%202024-03-24%20141537.png)
 
 2. fill details name, region, IP set range which you are going to take action.
+
+![](https://github.com/smitwaman/project-1/blob/main/images/IPSeT/2.png)
 
 
 3. Create IP set by clicking create IP set.
 
+![](https://github.com/smitwaman/project-1/blob/main/images/IPSeT/3.png)
 
 
 
