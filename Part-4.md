@@ -3,7 +3,9 @@ In this part we will SSH to our EC2 instance. Here we will login our EC2 from IG
 You have to create and download Private 🗝️ key file either during launch instance or you can also create it from consule keypair menu.
 
 1. Let's open terminal
+
 2. Navigate to downloaded key file.
+
 3. here change permission to give minimum acess to user
 
  ▪️ chmod 400 key.pem 
