@@ -28,21 +28,27 @@ Also we will create template for ASG. And in last we will configure target group
 
 
 4. Next window select EC2 instances as we are creating TG for EC2 instances.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/7.png)
 
 
 5. Name to Target Group
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/8.png)
 
 
 6. Select Protocol : Port, IP version,our VPC, Protocol version,health check.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/8a.png)
 
 
 7. click Next 
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/9.png)
 
 
 8. Select EC2 instances from available instances and create target group.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/10.png)
 
 
 9. But still there is none associated LB.
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/11.png)
 
 
 
