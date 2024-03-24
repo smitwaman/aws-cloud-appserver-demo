@@ -28,12 +28,22 @@ And click create button
 
 ✅ For internet access to vpc components let's create IGW internet gateway.
 
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/8.png)
+
 1. Click IGW in LNM
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/9.png)
+
 2. Click on create IGW button.
+
 3. fill up all details such as name and tag and click create internet gateway button.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/10.png)
+
 4. Click IGW in LNM you will find your IGW in list but in detached status.
+
 5. To attach VPC, click on name of IGW and navigate to Actions drop-down list. There you will find Attach VPC.
+
 6. Click on Attach VPC and select your VPC in drop-down list.Finally click on Attach VPC button
+
 7. Again navigate to IGW in LNM you will find your IGW in attached status.
 
 ✅ In next AWS resource creation,we will create public subnet and private subnet.
