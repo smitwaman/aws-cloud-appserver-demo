@@ -67,30 +67,36 @@ In next step 🪜 click on load balancer in LNM
 
 1. Click create load balancer and select Application Load Balancer.
 
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/12.png)
+
+
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/13.png)
 
 
 2. Fill up basic configuration as name, scheme and IP address type.
 
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/14.png)
+
 
 3. Select VPC and subnet
 
-
 4. 🍒 important one as we have created SG for EC2 similarly we have to create SG for ALB.
-
 
 5. Add SG to security groups.
 
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/15.png)
 
 6. In listener and routing section, select protocol:port, and important one target group.
 
 
 7. Finally click on create LoadBalancer button.
-
+   
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/17.png)
 
 
 It will take time to come into active state.
 
-
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/16.png)
 
 
 👉 Auto scaling group
