@@ -8,7 +8,9 @@ Let's create and save template for EC2 first.
 1. Open console and select EC2.
 
 2. Click drop-down button just next to the launch instance and select launch with template. Choose your launch template and launch EC2 instance.
-
+![](https://github.com/smitwaman/project-1/blob/main/images/EC2%20Launch%20Template/1.png)
+![](https://github.com/smitwaman/project-1/blob/main/images/EC2%20Launch%20Template/2.png)
+![](https://github.com/smitwaman/project-1/blob/main/images/EC2%20Launch%20Template/3.png)
 
 
 3. For creation of launch template navigate to create template in LNM window.
