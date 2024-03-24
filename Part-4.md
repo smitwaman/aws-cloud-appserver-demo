@@ -14,7 +14,7 @@ You have to create and download Private 🗝️ key file either during launch in
 
 4. check permissions with 
 
- ▪️ ls -lrth
+ ▪️ ls -lart
 
 ![](https://github.com/smitwaman/project-1/blob/main/images/SSH/1.png)
 
