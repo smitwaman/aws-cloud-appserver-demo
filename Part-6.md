@@ -1,5 +1,9 @@
 In this section we are going to add web application firewall to load balancer
+Navigate to WAF resource.
 
+![](https://github.com/smitwaman/project-1/blob/main/images/WAF/2.png)
+
+![](https://github.com/smitwaman/project-1/blob/main/images/WAF/3.png)
 
 1. Navigate to IP sets.
 
