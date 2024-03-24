@@ -73,17 +73,23 @@ Note that we can't route packets from IGW to public and private subnet with rout
 
 2.Create public and private route table separate with same procedure by selecting VPC.
 ![](https://github.com/smitwaman/project-1/blob/main/images/VPC/20.png)
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/26.png)
 
 3. But still RT in inactive stateNow, select Route table in LNM and here you will find your Public and private RT.
-![](https://github.com/smitwaman/project-1/blob/main/images/VPC/21.png)
-
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/25.png)
 
 4. Next task is to associate subnet to route table with selecting subnet association menu tab
-
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/27.png)
 
 5. ✔️ front of public subnet for public RT and private subnet for private RT.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/25.png)
+
 6. Again navigate to RT you will find both RT in active state.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/23.png)
+
 7. Select Public Route table and navigate to routes here add route from 0.0.0.0/0 to IGW as target and finally add route to RT
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/22.png)
+
 8. Now we have routed IP packets from IGW to RT to Subnet.
 
 
