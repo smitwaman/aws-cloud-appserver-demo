@@ -6,7 +6,8 @@ Uptill now we are ready with
 Now in next movement we will launch 3 EC2 with help of launch template.
 Also we will create template for ASG. And in last we will configure target group and ALB service for launched EC2 instances.
 
-![] https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/1.png
+![](https://github.com/smitwaman/project-1/blob/main/images/ASG-LB/1.png)
+
 
 
 👉 🎯 Target group with Load-Balancer 
