@@ -1,16 +1,22 @@
 ✅ In this part we are going to create VPC.
-1. Open console and click on VPC.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/1.png)
 
-2. Select create VPC
+1. Open console and click on VPC.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/2.png)
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/3.png)
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/4.png)
+3. Select create VPC
+ ![](https://github.com/smitwaman/project-1/blob/main/images/VPC/5.png)  
 fill up following details as 
 - name 
 - region
 - CIDR block for ip addresses range
 - TAG VPC
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/6.png)
 And click create button 
 
-3. Go to Your VPC, in list you will find your VPC with available status.
-
+4. Go to Your VPC, in list you will find your VPC with available status.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/7.png)
 ✅ For internet access to vpc components let's create IGW internet gateway.
 
 1. Click IGW in LNM
