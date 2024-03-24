@@ -97,11 +97,17 @@ Note that we can't route packets from IGW to public and private subnet with rout
 ✅ For accessing to resources in subnet we have to predefined engress and ingress rule in security group. So during resource we can select security group directly.
 
 1. Navigate to security groups in VPC LNM.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/28.png)
 
 2. Create security group with filling up details as name and inbound/outbound traffic for required ports.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/29.png)
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/30.png)
 
-3. Click on create security group.
 
+4. Click on create security group.
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/31.png)
+
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/32.png)
 
 
 Finally we are ready with base infrastructure. In next part we will launch resources in subnets such as EC2 with template and user data for APP-SERVER creation.
