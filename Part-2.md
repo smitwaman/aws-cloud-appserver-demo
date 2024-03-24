@@ -39,13 +39,13 @@ And click create button
 ![](https://github.com/smitwaman/project-1/blob/main/images/VPC/10.png)
 
 4. Click IGW in LNM you will find your IGW in list but in detached status.
-
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/11.png)
 5. To attach VPC, click on name of IGW and navigate to Actions drop-down list. There you will find Attach VPC.
 
 6. Click on Attach VPC and select your VPC in drop-down list.Finally click on Attach VPC button
-
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/12.png)
 7. Again navigate to IGW in LNM you will find your IGW in attached status.
-
+![](https://github.com/smitwaman/project-1/blob/main/images/VPC/13.png)
 ✅ In next AWS resource creation,we will create public subnet and private subnet.
 
 1. Navigate to Subnet in LNM.
