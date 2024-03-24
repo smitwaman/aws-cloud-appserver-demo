@@ -1,5 +1,5 @@
 Create IAM user and login to console.
-
+![](https://github.com/smitwaman/project-1/blob/main/images/IAM/1.jpg)
 1. Login to AWS console
 
 2. Click on IAM.
